@@ -3,7 +3,7 @@ FROM alpine:3.6
 ARG TZ='Asia/Shanghai'
 
 ENV TZ $TZ
-ENV SS_LIBEV_VERSION 3.1.0
+ENV SS_LIBEV_VERSION 3.1.1
 ENV KCP_VERSION 20171113 
 
 RUN apk upgrade --update \
