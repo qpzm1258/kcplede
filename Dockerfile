@@ -4,7 +4,7 @@ ARG TZ='Asia/Shanghai'
 
 ENV TZ $TZ
 ENV SS_LIBEV_VERSION 3.1.1
-ENV KCP_VERSION 20171113 
+ENV KCP_VERSION 20171129 
 
 RUN apk upgrade --update \
     && apk add bash tzdata libsodium \
